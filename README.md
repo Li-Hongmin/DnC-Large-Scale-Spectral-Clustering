@@ -8,16 +8,36 @@ You can also find our paper in [ArXiv.org](https://arxiv.org/abs/2104.15042) Or 
 ## Datasets
 Five real world datasets and five synthetic datasets:
 
-- PenDigits
-- USPS
-- Letters
-- MNIST
-- Covertype
-- Three Spirals-60K (TS-60K)
-- Two Moons-1M (TM-1M)
-- Three Circles-6M (TC-6M)
-- Circles and Gaussian-10M (CG-10M)
-- Flower-20M (FL-20M)
+### Available in Repository (via Git LFS)
+- PenDigits (137KB)
+- USPS (14MB)
+- Letters (163KB)
+- MNIST (14MB)
+- Covertype (6.4MB)
+- Two Moons-1M / TM-1M (15MB)
+- Three Spirals-60K / TM-60K (8.6MB)
+
+### Large Datasets (Download Separately)
+Due to GitHub's file size limitations, the following large datasets need to be downloaded separately:
+
+- **Three Circles-6M (TC-6M)** - 86MB
+  - [Download from Google Drive](https://drive.google.com/file/d/YOUR_FILE_ID_HERE)
+  - [Download from Dropbox](https://www.dropbox.com/s/YOUR_FILE_ID_HERE)
+
+- **Circles and Gaussian-10M (CG-10M)** - ~200MB+
+  - [Download from Google Drive](https://drive.google.com/file/d/YOUR_FILE_ID_HERE)
+  - [Download from Dropbox](https://www.dropbox.com/s/YOUR_FILE_ID_HERE)
+
+- **Flower-20M (FL-20M)** - 321MB
+  - [Download from Google Drive](https://drive.google.com/file/d/YOUR_FILE_ID_HERE)
+  - [Download from Dropbox](https://www.dropbox.com/s/YOUR_FILE_ID_HERE)
+
+After downloading, place these files in the `Datasets/` folder.
+
+### Dataset Format
+All datasets are stored in MATLAB `.mat` format with the following structure:
+- `X`: Feature matrix (n × d)
+- `Y`: Label vector (n × 1)
 
 ## Algorithm
 
